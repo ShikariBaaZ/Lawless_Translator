@@ -1,0 +1,83 @@
+{
+
+    "name": "Lawless Translater",
+
+    "description": "Lawless Google Translater Bot",
+
+    "logo": "https://telegra.ph/file/5659bd87170bdcbe5ee44.jpg",
+
+    "keywords": [
+
+        "Shikari",
+
+        "Lawless Google Translator"
+
+    ],
+
+    "repository": "https://github.com/ShikariBaaZ/Lawless_Translator",
+
+    "success_url": "https://telegram.dog/ShikariSupportNetwork",
+
+    "env": {
+
+        "API_ID": {
+
+            "description": "Your APP ID From https://my.telegram.org/ ",
+
+            "value": ""
+
+        },
+
+        "API_HASH": {
+
+            "description": "Your API Hash From https://my.telegram.org/",
+
+            "value": ""
+
+        },
+
+        "TOKEN": {
+
+            "description": "Your Bot Token From @BotFather",
+
+            "value": ""
+
+        },
+
+        "ADMIN": {
+
+            "description":"Add Your User/Dev ID"
+
+        },
+
+        "DB_URL": {
+
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+
+            "value": ""
+
+        },
+
+        "DB_NAME":{ 
+
+               "description":"Your Mongo DB Database Name ",
+
+                "value": "myfirstdatabase",
+
+                "required": false
+
+        }
+
+    },
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        }
+
+    ]
+
+}
